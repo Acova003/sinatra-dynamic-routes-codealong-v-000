@@ -21,6 +21,6 @@ class App < Sinatra::Base
   
   get "/multiply/num1/num2" do 
     @num1= params[:id]
-    "Goodbye, #{@num1} and #{num2}."
+    "Goodbye, #{@num1} and #{@num2}."
   end 
 end
