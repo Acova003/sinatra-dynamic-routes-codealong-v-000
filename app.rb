@@ -22,6 +22,6 @@ class App < Sinatra::Base
   get "/multiply" do 
     if @user_name.length > 1 
       count = 1
-      @num#{count} = params
+      @num#{count} = params[]
   end 
 end
