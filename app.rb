@@ -22,7 +22,7 @@ class App < Sinatra::Base
   get "/multiply" do 
     @num1 = params[:name][0]
     @num2 = params[:name][1]
-    binding.pry
+   # binding.pry
     redirect "/multiply/:num1/:num2"
   end 
 end
