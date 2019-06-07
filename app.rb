@@ -20,6 +20,8 @@ class App < Sinatra::Base
   end 
   
   get "/multiply" do 
-    
+    if @user_name.length > 1 
+      
+      @num#{count}
   end 
 end
