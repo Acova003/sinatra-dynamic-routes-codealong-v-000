@@ -23,5 +23,6 @@ class App < Sinatra::Base
     @num1 = params[:name][0]
     @num2 = params[:name][1]
     
+    redirect "/multiply/:num1/:num2"
   end 
 end
